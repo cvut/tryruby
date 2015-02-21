@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'try_ruby_cli/version'
+require 'tryruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'try_ruby_cli'
+  spec.name          = 'tryruby'
   spec.version       = Tryruby::VERSION
   spec.authors       = ['Jakub Červenka', 'Tomas Barton']
   spec.email         = ['cervej19@fit.cvut.cz', 'tomas.barton@fit.cvut.cz']

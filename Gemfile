@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in try_ruby_cli.gemspec
+# Specify your gem's dependencies in tryruby.gemspec
 gemspec
