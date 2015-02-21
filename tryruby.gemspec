@@ -16,10 +16,13 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(/^(test|spec|features)\//)
   spec.require_paths = ['lib']
 
+  spec.required_ruby_version = '>= 2.0'
+
+  spec.add_runtime_dependency 'ripl', '~> 0.7'
+  spec.add_runtime_dependency 'ripl-multi_line', '~> 0.3'
+  spec.add_runtime_dependency 'sourcify', '~> 0.5'
+  spec.add_runtime_dependency 'paint', '~> 0.9'
+
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_dependency 'ripl'
-  spec.add_dependency 'ripl-multi_line'
-  spec.add_dependency 'sourcify'
-  spec.add_dependency 'paint'
 end
