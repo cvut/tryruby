@@ -1,6 +1,8 @@
 # Try Ruby!
 
 [![Build Status](https://travis-ci.org/cvut/tryruby.svg?branch=master)](https://travis-ci.org/cvut/tryruby)
+[![Test Coverage](https://codeclimate.com/github/cvut/tryruby/badges/coverage.svg)](https://codeclimate.com/github/cvut/tryruby)
+[![Code Climate](https://codeclimate.com/github/cvut/tryruby/badges/gpa.svg)](https://codeclimate.com/github/cvut/tryruby)
 
 A command line version of [tryruby.org](http://tryruby.org/) in case that the website goes down or is having troubles with too many simultaneous connections you can use this REPL shell to try ruby!
 

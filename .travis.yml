@@ -3,3 +3,7 @@ sudo: false
 rvm:
   - 2.0.0
   - 2.1.5
+addons:
+  code_climate:
+    repo_token:
+      secure: h49J5f0V0KFDjhpKl/lXLSHlh62zazNFJi+76Sa0OYnHTF18uMaiuBqIqXlfFVC9lNQ9FXSp2DTCEqotcQFcI6aPXH/PtPs5nOUStcgANkNCLjV+BnF5EOIiDt3pswuh4ec/HNZ4yP53Tc/6w87JmdQF36iq6js71MZbZ1CWqVI=
