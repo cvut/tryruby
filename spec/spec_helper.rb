@@ -1,4 +1,5 @@
 require 'stringio'
+require 'simplecov'
 require 'tryruby'
 
 Dir['./spec/support/**/*.rb'].each { |file| require file }
