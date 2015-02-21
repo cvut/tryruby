@@ -1,6 +1,6 @@
 require 'stringio'
-require_relative 'colors'
-require_relative 'next_fix'
+require 'tryruby/colors'
+require 'tryruby/next_fix'
 
 module Tryruby
   # Shell extension

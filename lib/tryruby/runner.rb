@@ -1,7 +1,7 @@
 require 'ripl'
 require 'ripl/multi_line'
-require_relative 'shell'
-require_relative 'commands'
+require 'tryruby/commands'
+require 'tryruby/shell'
 
 module Tryruby
   # Startup class of the shell

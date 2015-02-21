@@ -1,5 +1,5 @@
-require_relative 'level'
-require_relative 'challenge_builder'
+require 'tryruby/level'
+require 'tryruby/challenge_builder'
 
 module Tryruby
   # Single tutorial level builder

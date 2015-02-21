@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 # coding: utf-8
-require_relative File.expand_path('../../lib/tryruby/runner', __FILE__)
+LIB_DIR = File.expand_path('../lib', __dir__)
+$LOAD_PATH.unshift LIB_DIR unless $LOAD_PATH.include? LIB_DIR
+
+require 'tryruby/runner'
 
 ARGV << 'Tryruby::DefaultLevels' unless ARGV.length > 0
 tutorials = ARGV.map do |tutorial|
@@ -12,7 +15,7 @@ tutorials = ARGV.map do |tutorial|
   begin
     require snake_case
   rescue LoadError
-    require_relative File.expand_path("../../lib/#{snake_case}", __FILE__)
+    abort "Tutorial #{tutorial} not found!"
   end
   Object.const_get(tutorial).new
 end

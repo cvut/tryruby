@@ -1,4 +1,4 @@
-require_relative 'level_builder'
+require 'tryruby/level_builder'
 
 module Tryruby
   # Base module for level DSL

@@ -1,5 +1,5 @@
-require_relative 'challenge'
-require_relative 'colors'
+require 'tryruby/challenge'
+require 'tryruby/colors'
 
 module Tryruby
   # Single challenge level builder

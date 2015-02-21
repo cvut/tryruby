@@ -1,5 +1,5 @@
-require_relative 'tutorial'
 require 'fileutils'
+require 'tryruby/tutorial'
 
 module Tryruby
   # Levels and challenges form tryruby.org
