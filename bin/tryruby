@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-
-require_relative File.join(File.dirname(__FILE__), '../lib/tryruby/runner')
+# coding: utf-8
+require_relative File.expand_path('../../lib/tryruby/runner', __FILE__)
 
 ARGV << 'Tryruby::DefaultLevels' unless ARGV.length > 0
 tutorials = ARGV.map do |tutorial|
@@ -12,7 +12,7 @@ tutorials = ARGV.map do |tutorial|
   begin
     require snake_case
   rescue LoadError
-    require './' + snake_case
+    require_relative File.expand_path("../../lib/#{snake_case}", __FILE__)
   end
   Object.const_get(tutorial).new
 end
