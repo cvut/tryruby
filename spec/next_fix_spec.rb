@@ -1,5 +1,4 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/next_fix'
+require 'tryruby/next_fix'
 
 describe Tryruby::NextFix do
   # mocking module to properly inherit

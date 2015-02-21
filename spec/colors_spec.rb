@@ -1,6 +1,5 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/colors'
 require 'paint'
+require 'tryruby/colors'
 
 describe Tryruby::Colors do
   let(:string) { 'test' }

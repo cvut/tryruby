@@ -1,5 +1,4 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/level_builder'
+require 'tryruby/level_builder'
 
 describe Tryruby::LevelBuilder do
   subject { described_class.new }

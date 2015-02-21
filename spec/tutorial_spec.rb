@@ -1,5 +1,4 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/tutorial'
+require 'tryruby/tutorial'
 
 describe Tryruby::Tutorial do
   subject { described_class.new }

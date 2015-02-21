@@ -1,6 +1,5 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/shell'
-require_relative '../lib/tryruby/challenge'
+require 'tryruby/challenge'
+require 'tryruby/shell'
 
 # mocking shell
 class TestShell

@@ -1,7 +1,5 @@
-#!/usr/bin/env ruby
-
 require 'stringio'
-$LOAD_PATH << '../lib/tryruby'
+require 'tryruby'
 
 RSpec.configure do |c|
   c.color = true

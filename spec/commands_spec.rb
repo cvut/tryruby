@@ -1,7 +1,6 @@
-require_relative 'spec_helper'
 require 'ripl'
-require_relative '../lib/tryruby/commands'
-require_relative '../lib/tryruby/next_fix'
+require 'tryruby/commands'
+require 'tryruby/next_fix'
 
 # mocking shell
 module TestShellModule

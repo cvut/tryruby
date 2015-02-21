@@ -1,5 +1,4 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/challenge'
+require 'tryruby/challenge'
 
 describe Tryruby::Challenge do
   let(:help) { '' }

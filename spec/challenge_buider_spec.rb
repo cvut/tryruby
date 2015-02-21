@@ -1,5 +1,4 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/challenge_builder'
+require 'tryruby/challenge_builder'
 
 describe Tryruby::ChallengeBuilder do
   subject { described_class.new }

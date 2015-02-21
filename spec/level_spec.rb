@@ -1,6 +1,5 @@
-require_relative 'spec_helper'
-require_relative '../lib/tryruby/level'
-require_relative '../lib/tryruby/challenge'
+require 'tryruby/challenge'
+require 'tryruby/level'
 
 describe Tryruby::Level do
   let(:a) { Tryruby::Challenge.new('a') }
