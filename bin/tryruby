@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require_relative File.join(File.dirname(__FILE__), '../lib/tryruby/runner')
+
+ARGV << 'Tryruby::DefaultLevels' unless ARGV.length > 0
+tutorials = ARGV.map do |tutorial|
+  snake_case = tutorial.gsub(/::/, '/')
+    .gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2')
+    .gsub(/([a-z\d])([A-Z])/, '\1_\2')
+    .tr('-',  '_')
+    .downcase
+  begin
+    require snake_case
+  rescue LoadError
+    require './' + snake_case
+  end
+  Object.const_get(tutorial).new
+end
+ARGV.clear
+
+Tryruby::Runner.start(tutorials)
