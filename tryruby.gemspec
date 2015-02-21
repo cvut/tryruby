@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['cervej19@fit.cvut.cz', 'tomas.barton@fit.cvut.cz']
   spec.summary       = 'Console version of tryruby.org'
   spec.description   = 'Console tutorial tool for Ruby.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/cvut/tryruby'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
