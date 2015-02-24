@@ -4,8 +4,8 @@ require File.expand_path('../lib/tryruby/version', __FILE__)
 Gem::Specification.new do |spec|
   spec.name          = 'tryruby'
   spec.version       = Tryruby::VERSION
-  spec.authors       = ['Jakub Červenka', 'Tomas Barton']
-  spec.email         = ['cervej19@fit.cvut.cz', 'tomas.barton@fit.cvut.cz']
+  spec.authors       = ['Jakub Červenka', 'Tomas Barton', 'Jakub Jirutka']
+  spec.email         = ['cervej19@fit.cvut.cz', 'tomas.barton@fit.cvut.cz', 'jirutjak@fit.cvut.cz']
   spec.summary       = 'Console version of tryruby.org'
   spec.description   = 'Console tutorial tool for Ruby.'
   spec.homepage      = 'https://github.com/cvut/tryruby'
