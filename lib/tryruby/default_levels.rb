@@ -56,8 +56,7 @@ it's not required. For now, stick with these basic operations; we'll try a few
 others later.
 
 When you're finished experimenting, type #{result 'next'} to move to the next \
-lesson when
-you're finished.
+lesson.
         EOF
       end
 
